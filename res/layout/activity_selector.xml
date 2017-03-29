@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/ocr"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/ocr"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_below="@id/ocr"
+        android:layout_height="100dp"
+        android:text="@string/classifier"
+        android:id="@+id/classify"
+        />
+    </LinearLayout>
+
+
+</RelativeLayout>
